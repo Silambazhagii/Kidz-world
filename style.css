@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.nav-image img{
+    width: 100%;
+    height: 400px;
+}
+.im{
+    position: relative;
+    margin-top: 10px;
+}
+.hash{
+    line-height: 70px;
+    margin-left: 70px;
+    position: absolute;
+    top: 100px;
+    color: #ffff;
+}
+.hash h1{
+    font-size: 50px;
+}
+.hash h4{
+    position: absolute;
+    top: 200px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.whole{
+    position: relative;
+}
+.nav1{
+    position: relative;
+    font-size: 25px;
+    
+}
+.logo{
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.nav2{
+    position: absolute;
+    top: 13px;
+    right: 83px;
+    font-weight: 700;
+}
+.cart{
+    position: absolute;
+    top: 12px;
+    right: 177px;
+}
+
+.discover{
+    font-size: 22px;
+    font-weight: 900;
+    margin-top: 100px;
+    margin-left: 70px;
+}
+
+.row1{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.row1-items{
+    line-height: 23px;
+    margin-left: 35px;
+}
+.btn{
+    padding: 5px;
+    border-radius: 4px;
+    width: 70px;
+    position: relative;
+    display: inline-block;
+    margin-top: -3px;
+    display: flex;
+    background-color: #6196FF;
+    color: white;
+}
+.final{
+    display: flex;
+    justify-content: space-between  ;
+}
+.bld{
+    font-size: 18px;
+    font-weight: 900;
+}
+.light{
+    font-size: 13px;
+    color: grey;
+}
+.num{
+    font-size: 18px;
+    font-weight: 900;
+}
+.games{
+    position: relative;
+    margin-left: 70px;
+    margin-top: 100px;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.row2{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 20px;   
+}
+.row2-items{
+    line-height: 23px;
+    margin-left: 35px;
+}
+.row3{
+    display: flex;
+    margin-left: 70px;
+    margin-top: 20px;   
+}
+.row3-items{
+    line-height: 23px;
+    margin-left: 35px;
+}
+.tit{
+    position: relative;
+    margin-left: 70px;
+    margin-top: 100px;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.last{
+    /* width: 100vw; */
+    color: white;
+    margin-top: 150px;
+    background-color: black;
+}
+.brought{
+    margin-left: 80px;
+    font-size: 20px;
+
+}
+.profile{
+    margin-left: 80px;
+    display: inline-block;
+    height: 130px;
+    width: 130px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+}
+.rt{
+    justify-content: space-between;
+
+}
+.name{
+    position: relative;
+    /* margin-left: 900px; */
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 900;
+
+}
+.made{
+    position: relative;
+    right: 40px;
+    margin-top: 10px;
+    /* margin-left: 840px*/
+    font-size: 13px;
+}
+.heart{
+    position: relative;
+    top: 4px;
+
+}
+
+@media all and (max-width: 700px){
+    .row1{
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+    .discover{
+        text-align: center;
+        font-size: x-large;
+    }
+    .games{
+        text-align: center;
+        font-size: x-large;
+    }
+    .tit{
+        text-align: center;
+        font-size: x-large;
+    }
+    .hash{
+
+    }
+    .first-book{
+        margin-top: 30px;
+    }
+    .second-book{
+        margin-top: 30px;
+    }
+    .third-book{
+        margin-top: 30px;
+    }
+    .fourth-book{
+        margin-top: 30px;
+    }
+    .fifth-book{
+        margin-top: 30px;
+    }
+    .sixth-book{
+        margin-top: 30px;
+    }
+    .row2{
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+    .row2-items{
+        margin-top: 30px;
+    }
+
+    .row3{
+        display: block;
+        justify-content: center;
+        text-align: center;     
+    }
+    .row3-items{
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+    .final{
+        justify-content: space-evenly;
+    }
+
+
+    /* footer h2{
+        font-size: 25px;
+    }
+    .footer{
+        justify-content: space-between;
+    } */
+}   
+
+
